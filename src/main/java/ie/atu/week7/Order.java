@@ -51,4 +51,14 @@ public class Order {
         this.productName = productName;
         this.quantity = quantity;
     }
+
+    @Override
+    public String toString() {
+        return "Order[ " +
+                "OrderID='" + orderID + '\'' +
+                ", Name='" + customerName + '\'' +
+                ", Product='" + productName + '\'' +
+                ", Quantity=" + quantity +
+                ']';
+    }
 }
